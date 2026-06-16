@@ -9,7 +9,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 app.use(cors({
-  origin: 'https://your-app.vercel.app'
+  origin: 'https://booklify-2igp.vercel.app'
 })); 
 app.use(express.json());
 app.use(limiter);
